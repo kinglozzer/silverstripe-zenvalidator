@@ -219,7 +219,7 @@
 			}
 		});
 
-		$('.field.validation-logic-master :checkbox, .field.validation-logic-master :radio').entwine({
+		/*$('.field.validation-logic-master :checkbox, .field.validation-logic-master :radio').entwine({
 			onmatch: function() {			
 				this.closest(".field").notify();
 			},
@@ -227,7 +227,7 @@
 			onclick: function() {	
 				this.closest(".field").notify();
 			}
-		});
+		});*/
 
 		$('.field.validation-logic-master').entwine({
 			Listeners: null,
